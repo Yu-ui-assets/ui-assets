@@ -1,0 +1,8 @@
+
+.ht-350{
+  height: 350px;
+}
+
+table.dataTable thead th, table.dataTable.no-footer th, .dataTables_wrapper thead th, .dataTables_wrapper.no-footer th{
+  border-bottom: 2px solid var(--secondary);
+}

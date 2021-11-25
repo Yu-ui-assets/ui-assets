@@ -1,0 +1,138 @@
+/* tiles css starts */
+.tile {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.minimal select {
+    background-color: white;
+    border: thin solid #0a5881;
+    border-radius: 4px;
+    display: inline-block;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select.minimal {
+    background-image: linear-gradient(45deg, transparent 50%, #0a5881 50%),
+ linear-gradient(135deg, #0a5881 50%, transparent 50%),
+ linear-gradient(to right, #ccc, #ccc);
+    background-position: calc(100% - 20px) calc(1em + 2px),
+ calc(100% - 15px) calc(1em + 2px),
+ calc(100% - 2.5em) 0.5em;
+    background-size: 5px 5px,
+ 5px 5px,
+ 1px 1.5em;
+    background-repeat: no-repeat;
+}
+
+.circle_icon {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    vertical-align: top;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+    /* line-height: 10px; */
+    background: white;
+    /* box-shadow: inset 0px 0px 20px 0px; */
+    box-shadow: 1px 3px 8px -3px #7DE3BD;
+}
+
+.landing_icons_custom {
+    margin-top: 27%;
+    width: 30px;
+}
+
+.clickable_tiles {
+    cursor: pointer;
+}
+
+.clickable_tiles:hover {
+    box-shadow: 1px 3px 8px -3px #7DE3BD;
+}
+
+.margin-left-1 {
+    margin-left: -1rem;
+}
+
+#raise_request_modal .modal-dialog {
+    top: 14rem;
+}
+
+.clickable_tiles_iframe {
+    cursor: pointer;
+}
+
+.clickable_tiles_iframe:hover {
+    box-shadow: 1px 3px 8px -3px #7DE3BD;
+}
+
+.clickable_tiles_iframe_modal {
+    cursor: pointer;
+}
+
+.clickable_tiles_iframe_modal:hover {
+    box-shadow: 1px 3px 8px -3px #7DE3BD;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+
+/* tiles css Ends */
+
+
+/* widget css */
+
+hr.dash1 {
+    border: 3px solid #4285f4;
+    border-radius: 5px;
+    width: 80%;
+    margin-left: -15px;
+}
+
+.count_in_widget {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+hr.dash2 {
+    border: 3px solid #ea4335;
+    border-radius: 5px;
+    width: 80%;
+    margin-left: -19px;
+}
+
+hr.dash3 {
+    border: 3px solid #fbbc05;
+    border-radius: 5px;
+    width: 80%;
+    margin-left: -28px;
+}
+
+hr.dash4 {
+    border: 3px solid #34a853;
+    border-radius: 5px;
+    width: 80%;
+    margin-left: -6px;
+}
+
+hr.dash5 {
+    border: 3px solid #4285f4;
+    border-radius: 5px;
+    width: 80%;
+    margin-left: -15px;
+}
+
+/* widget css ends */
