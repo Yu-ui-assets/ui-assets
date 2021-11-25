@@ -1,0 +1,20 @@
+.list-view-row a {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.list-view-row img {
+  width: 220px;
+}
+
+.list-view-row p {
+  color: #464855;
+}
+
+.list-view-row .product-img {
+  /* min-height: 250px; */
+  /* margin-right: 2rem; */
+}
+.list-view-row {
+  display: none;
+}

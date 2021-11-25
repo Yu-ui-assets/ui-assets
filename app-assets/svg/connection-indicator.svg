@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50.312" height="55.902" viewBox="0 0 50.312 55.902">
+  <g id="connection-indicator" transform="translate(-25.5)">
+    <g id="today" transform="translate(25.5)">
+      <path id="Path_435" data-name="Path 435" d="M70.221,5.59h-2.8V0h-5.59V5.59H39.475V0h-5.59V5.59h-2.8a5.607,5.607,0,0,0-5.59,5.59V50.312a5.607,5.607,0,0,0,5.59,5.59H70.221a5.607,5.607,0,0,0,5.59-5.59V11.18A5.607,5.607,0,0,0,70.221,5.59Zm0,44.721H31.09V19.566H70.221Z" transform="translate(-25.5)" fill="#545766"/>
+      <rect id="Rectangle_766" data-name="Rectangle 766" width="13.975" height="13.975" transform="translate(11.18 25.156)" fill="#545766"/>
+    </g>
+  </g>
+</svg>
