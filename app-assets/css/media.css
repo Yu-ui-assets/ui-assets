@@ -1,0 +1,119 @@
+@media (min-width: 1800px) {
+}
+
+@media (min-width: 1700px) and (max-width: 1799px) {
+}
+
+@media (min-width: 1500px) and (max-width: 1699px) {
+}
+
+@media (min-width: 1300px) and (max-width: 1499px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 768px) {
+  .ht-auto-md {
+    height: auto !important;
+  }
+
+  /* header css */
+  .brand-logo-2 {
+    width: 40px;
+  }
+  .material-vertical-layout .header-navbar .navbar-header .navbar-brand,
+  .material-horizontal-layout .header-navbar .navbar-header .navbar-brand {
+    margin-left: 5px !important;
+  }
+  /* header css ends */
+
+  /* dashboard css */
+  .ht-md {
+    height: 250px;
+  }
+  .font-large-2-7 {
+    font-size: 2rem !important;
+  }
+  .border-right-blue-grey.border-right-lighten-5 {
+    border-bottom: 1px solid #eceff1 !important ;
+  }
+
+  /* dashboard css Ends*/
+}
+
+@media only screen and (max-width: 425px) {
+  /* header css */
+  .brand-logo-2 {
+    display: none;
+  }
+  .nav.navbar-nav.flex-row {
+    margin-top: 8px;
+  }
+  .brand-logo-1,
+  .header-navbar .navbar-header .navbar-brand .brand-logo-1 {
+    width: 200px;
+  }
+  html body .content .content-wrapper {
+    padding: 1.1rem 1.1rem 0;
+  }
+
+  /* header css Ends*/
+  /* dashboard css */
+
+  .ht-400-sm {
+    height: 400px !important;
+  }
+  #data-color {
+    top: 0.5rem;
+  }
+  #donut_charts {
+    top: 3rem;
+  }
+  .card-header__title {
+    width: 180px;
+    justify-content: space-between;
+  }
+  .activity-feed {
+    overflow-y: scroll;
+  }
+  .activity-feed .feed-item {
+    padding-bottom: 20px;
+    padding-left: 30px;
+  }
+  .card-header__title h3 {
+    font-size: 16px;
+  }
+  /* dashboard css Ends*/
+
+  .check_in_out {
+    margin-bottom: 1rem;
+  }
+  .sm-center{
+    justify-content: center !important;
+  }
+  /* .marginLeft-1{
+    margin-left: 5px;
+  } */
+  .ht-420-sm{
+    height: 420px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+}
+
+@media only screen and (max-width: 516px) {
+}
+
+/* @media (min-width: 320px) and (max-width: 538px) {
+    .minimal select {
+        margin: 3px 0px 18px -13px;
+    }
+} */
