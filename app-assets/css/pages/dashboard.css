@@ -1,0 +1,291 @@
+.title_filter_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vl {
+  height: 70px;
+  width: 5px;
+  background-color: #5c6bc0a3;
+  margin: auto;
+}
+.star_div {
+  text-align: center;
+}
+.ht-350 {
+  height: 400px;
+}
+
+.ht-200 {
+  height: 200px;
+}
+.ht-320 {
+  height: 320px;
+}
+
+.progress:last-child {
+  margin-bottom: 0rem;
+}
+
+.icon-40pt {
+  font-size: 40px;
+  color: var(--grey);
+}
+.font-large-2-7 {
+  font-size: 2.6rem !important;
+}
+.progress {
+  margin-top: 0 !important;
+}
+
+/* activity feed  */
+
+.activity-feed {
+  padding: 15px;
+  list-style: none;
+  height: 330px;
+  overflow-y: hidden;
+}
+.activity-feed:hover {
+  overflow-y: scroll;
+  padding-right: 0;
+}
+.activity-feed .feed-item {
+  position: relative;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  border-left: 2px solid var(--third);
+}
+.activity-feed .feed-item:last-child {
+  border-color: transparent;
+}
+.activity-feed .feed-item::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 6px;
+  background: #fff;
+  border: 1px solid var(--secondary);
+}
+.activity-feed .feed-item .date {
+  display: block;
+  position: relative;
+  top: -5px;
+  color: #000000;
+  /* text-transform: uppercase; */
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.activity-feed .feed-item .text {
+  position: relative;
+  top: -3px;
+  margin-bottom: 0;
+}
+
+/* recent css */
+
+.table th,
+.table td {
+  padding: 0.75rem 1rem;
+}
+
+/* ecommer dashbord css---------------------------------------------------------- */
+
+#scoreLineToDay .ct-series-a .ct-line {
+  stroke: var(--secondary);
+  stroke-width: 5px;
+}
+
+#scoreLineToWeek .ct-series-a .ct-line {
+  stroke: var(--secondary);
+  stroke-width: 5px;
+}
+
+#scoreLineToMonth .ct-series-a .ct-line {
+  stroke: var(--secondary);
+  stroke-width: 5px;
+}
+
+.ct-area-circle {
+  fill: var(--third);
+  stroke-width: 5;
+  stroke: #fff;
+}
+
+.ct-label {
+  fill: #000000;
+  color: #000000;
+}
+
+.scoreLineShadow {
+  -webkit-filter: drop-shadow(0px 20px 6px rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(0px 20px 6px rgba(0, 0, 0, 0.1)) !important;
+}
+
+.ht-525 {
+  height: 527px;
+}
+
+.width-15 {
+  width: 10px;
+  height: 7px;
+  position: relative;
+  bottom: 3px;
+}
+.ht-250 {
+  height: 250px;
+}
+
+#pie-simple-chart .apexcharts-tooltip.dark,
+#pie-donut-simple-chart .apexcharts-tooltip.dark {
+  color: #fff !important;
+  /* background: rgba(30,30,30, 0.8); */
+}
+/* ecommer dashbord css------------------------ENDS---------------------------------- */
+
+/* UAM DASHBOARD CSS STRATS----------------------------------------------------------- */
+
+/* <!-- Remote work css/ --> */
+.adjust-content {
+  margin-top: -3rem;
+}
+
+.custom-control-label::before,
+.custom-switch .custom-control-label::after {
+  cursor: pointer;
+}
+
+.video-icon {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.video-div {
+  margin-top: -2px;
+}
+
+.circle:before {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.cutlery {
+  float: left;
+  padding-right: 10px;
+}
+
+.tea {
+  font-size: 20px;
+  margin-top: 2px;
+  padding-right: 10px;
+  float: left;
+}
+
+.pause_btn {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.play_btn {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.reload_icon {
+  font-size: 18px !important;
+  color: var(--primary);
+}
+
+.icon-size {
+  font-size: 25px !important;
+  color: var(--primary);
+}
+
+.check_in_out {
+  /* padding: 8px 0px; */
+  padding-top: 9px;
+}
+.clock_icon {
+  margin-left: 1rem;
+  position: relative;
+  top: 2px;
+}
+/* Remote ends  */
+
+/* attendance css */
+.work_time {
+  font-size: 25px;
+  text-align: center;
+  color: #242424;
+  font-weight: 400;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+.circle_i {
+  width: 10px;
+  height: 10px;
+  background: var(--third);
+  border-radius: 50%;
+  display: block;
+}
+.shift_time {
+  width: calc(100% - 80px);
+  float: left;
+  border: 1px solid var(--third);
+  border-bottom: none;
+  height: 10px;
+  padding-top: 10px;
+  position: relative;
+  margin: 12px 40px 0 40px;
+  text-align: center;
+  font-size: 13px;
+  color: #242424;
+
+}
+
+.lf {
+  position: absolute;
+  top: 12px;
+  left: -15px;
+  font-size: 12px;
+}
+.rt {
+  position: absolute;
+  top: 12px;
+  right: -15px;
+  font-size: 12px;
+}
+
+
+.payroll_card .font-large-1{
+  font-size: 2rem !important;
+}
+
+.statistics_card{
+    padding: 11px;
+    padding-left: 1rem;
+}
+
+.statistics_count{
+    font-size: 33px;
+}
+
+.statistics_info{
+    margin-top: 8px;
+}
+
+.border-right-blue-grey.border-right-lighten-5{
+  margin-top: 10px;
+}
+
+.marginLeft-1{
+  margin-left: 1rem;
+}
